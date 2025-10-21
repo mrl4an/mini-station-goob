@@ -129,9 +129,10 @@
     - id: Multitool # Goobstation
     - id: Wrench # Goobstation
     - id: ContrabandDetectorFlatpack # Goobstation
-    - id: WeaponSniperVulture
-    - id: MagazineMagnumAntimaterial
-    - id: MagazineMagnumAntimaterial
+    - id: WeaponSniperVulture # Mini
+    - id: MagazineMagnumAntimaterial # Mini
+    - id: MagazineMagnumAntimaterial # Mini
+    - id: SecurityMegaphone # goob - loudspeakers
 
 - type: entityTable
   id: FillLockerWardenHarduit
@@ -182,9 +183,9 @@
     - !type:GroupSelector
       children:
       - id: ClothingBeltSecurityFilled
-        weight: 0.5
+        weight: 0.7
       - id: ClothingBeltCorporateJudoFilled
-        weight: 0.5
+        weight: 0.3
     # Goobstation - Martial Arts - end
 
 - type: entity

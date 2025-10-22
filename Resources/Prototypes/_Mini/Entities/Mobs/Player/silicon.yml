@@ -12,9 +12,9 @@
       - PositronicBrain
       borg_module:
       - BorgModuleTool
-      - BorgModuleDefibrillator
+      # - BorgModuleDefibrillator
       - BorgModuleSyndicateWeapon
-      - BorgModuleAdvancedTreatment
+      # - BorgModuleAdvancedTreatment
       - BorgModuleAdvancedSurgery
   - type: ItemSlots
     slots:

@@ -2,7 +2,7 @@
   id: JobTypanCommander
 
 - type: playTimeTracker
-  id: JobTypanRD
+  id: JobTypanResearchDirector
 
 - type: playTimeTracker
   id: JobTypanAtmosTech

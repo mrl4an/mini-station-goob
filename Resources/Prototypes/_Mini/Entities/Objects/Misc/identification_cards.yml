@@ -92,7 +92,7 @@
     layers:
     - state: typancardrd
   - type: PresetIdCard
-    job: TypanRD
+    job: TypanResearchDirector
   - type: Access
     tags:
     - TypanResearchDirector

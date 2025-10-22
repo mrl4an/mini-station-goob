@@ -36,8 +36,8 @@
 
 - type: latheRecipe
   parent: BaseJumpsuitRecipe
-  id: ClothingUniformJumpsuitTypanRecruit
-  result: ClothingUniformJumpsuitTypanRecruit
+  id: ClothingUniformJumpsuitTypanPatrol
+  result: ClothingUniformJumpsuitTypanPatrol
 
 - type: latheRecipe
   parent: BaseCommandJumpsuitRecipe

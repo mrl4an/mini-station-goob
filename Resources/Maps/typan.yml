@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/21/2025 22:24:55
-  entityCount: 6841
+  time: 10/22/2025 16:09:20
+  entityCount: 6855
 maps:
 - 1
 grids:
@@ -4317,18 +4317,18 @@ entities:
           0,3:
             0: 65535
           -1,3:
-            0: 56799
+            0: 64991
           0,4:
             0: 30511
           1,0:
             0: 61663
           1,1:
             0: 60671
+          1,3:
+            0: 61182
           1,-1:
             0: 55807
           1,2:
-            0: 61166
-          1,3:
             0: 61166
           1,4:
             0: 52430
@@ -4359,11 +4359,9 @@ entities:
           4,1:
             0: 39065
           4,2:
-            0: 39169
-            2: 128
+            0: 39297
           4,3:
-            0: 65025
-            3: 8
+            0: 65033
           -5,0:
             0: 61183
           -4,1:
@@ -4404,11 +4402,9 @@ entities:
           1,-3:
             0: 45823
           1,-2:
-            0: 64179
-            4: 8
+            0: 64187
           1,-5:
-            0: 28927
-            5: 32768
+            0: 61951
           2,-4:
             0: 62685
           2,-3:
@@ -4461,7 +4457,8 @@ entities:
           -7,3:
             1: 62704
           -7,-1:
-            0: 65248
+            0: 65216
+            2: 32
           -6,0:
             0: 61182
           -6,2:
@@ -4601,30 +4598,29 @@ entities:
           5,-4:
             0: 62687
           5,-3:
-            0: 13055
-            6: 32768
+            0: 45823
             1: 2048
           5,-2:
-            0: 45235
-            6: 8
+            0: 45243
           5,-5:
-            0: 53389
+            0: 56525
           6,-3:
-            0: 61551
-            5: 128
+            0: 61679
           6,-2:
             0: 61951
           6,-4:
-            0: 60928
+            0: 60942
           6,-5:
-            0: 33891
+            0: 61166
           7,-4:
-            0: 4353
-            1: 17440
+            0: 4355
+            1: 52424
           7,-3:
-            0: 1
-            5: 16
-            1: 60100
+            0: 17
+            1: 61132
+          7,-5:
+            0: 13107
+            1: 34952
           7,-2:
             1: 230
             0: 57344
@@ -4713,7 +4709,7 @@ entities:
           5,-7:
             0: 55680
           5,-6:
-            0: 54605
+            0: 5453
           5,-9:
             0: 65472
           6,-8:
@@ -4721,11 +4717,14 @@ entities:
             1: 17476
           6,-7:
             0: 25378
-          6,-6:
-            0: 29764
           6,-9:
             0: 4096
             1: 17506
+          6,-6:
+            0: 1092
+            1: 2048
+          7,-6:
+            1: 52992
           2,-10:
             1: 58560
           3,-10:
@@ -4751,7 +4750,7 @@ entities:
           10,3:
             0: 63726
           10,2:
-            0: 68
+            0: 64
           11,2:
             0: 2128
           11,3:
@@ -4814,86 +4813,10 @@ entities:
           - 0
           - 0
         - volume: 2500
-          temperature: 293.15
-          moles:
-          - 21.6852
-          - 81.57766
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14978
-          moles:
-          - 21.813705
-          - 82.06108
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 21.813705
-          - 82.06108
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
           temperature: 293.14975
           moles:
           - 20.078888
           - 75.53487
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14975
-          moles:
-          - 21.6852
-          - 81.57766
           - 0
           - 0
           - 0
@@ -5083,39 +5006,49 @@ entities:
       data:
         tiles:
           0,0:
-            0: 48931
+            0: 64419
+            1: 8
           -1,0:
-            0: 44680
-            1: 1
+            0: 48056
+            1: 3
           0,1:
-            0: 64795
-            2: 32
+            0: 65339
           -1,1:
-            0: 63114
+            0: 65419
           0,2:
             0: 39737
           -1,2:
-            0: 10882
+            0: 10883
+            1: 4096
           0,3:
-            1: 50
+            1: 6
           -1,3:
-            1: 136
+            1: 12
           0,-1:
             0: 8192
-          1,1:
-            0: 4096
-            1: 32
+            1: 32768
           1,0:
-            1: 8739
+            1: 547
+            0: 4368
+          1,1:
+            0: 4353
+            1: 17476
+          1,2:
+            0: 1
+            1: 4196
           1,-1:
-            1: 8192
+            1: 12288
+          -2,1:
+            1: 17476
+          -2,2:
+            1: 196
           -2,0:
-            1: 34952
+            1: 136
+            0: 34816
           -2,-1:
             1: 32768
-          -2,1:
-            1: 128
           -1,-1:
+            1: 12288
             0: 32768
         uniqueMixes:
         - volume: 2500
@@ -5142,25 +5075,6 @@ entities:
           moles:
           - 0
           - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14975
-          moles:
-          - 20.078888
-          - 75.53487
           - 0
           - 0
           - 0
@@ -6602,7 +6516,7 @@ entities:
       pos: 1.5,-0.5
       parent: 5000
     - type: Door
-      secondsUntilStateChange: -32525.666
+      secondsUntilStateChange: -33789.08
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6646,7 +6560,7 @@ entities:
       pos: -21.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -7742.625
+      secondsUntilStateChange: -9006.04
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6860,7 +6774,7 @@ entities:
       pos: 4.5,13.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -7154.659
+      secondsUntilStateChange: -8418.074
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7184,7 +7098,7 @@ entities:
       pos: 24.5,-5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -45034.65
+      secondsUntilStateChange: -46298.062
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -18245,11 +18159,21 @@ entities:
     - type: Transform
       pos: 13.5,11.5
       parent: 2
+  - uid: 4696
+    components:
+    - type: Transform
+      pos: 22.5,-19.5
+      parent: 2
   - uid: 4734
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 15.5,9.5
+      parent: 2
+  - uid: 4785
+    components:
+    - type: Transform
+      pos: 22.5,-17.5
       parent: 2
   - uid: 4797
     components:
@@ -18335,6 +18259,11 @@ entities:
     components:
     - type: Transform
       pos: 23.5,-15.5
+      parent: 2
+  - uid: 4953
+    components:
+    - type: Transform
+      pos: 22.5,-18.5
       parent: 2
   - uid: 5101
     components:
@@ -19600,40 +19529,10 @@ entities:
     - type: Transform
       pos: 2.5,-15.5
       parent: 2
-  - uid: 1213
-    components:
-    - type: Transform
-      pos: 21.5,14.5
-      parent: 2
   - uid: 3144
     components:
     - type: Transform
       pos: 2.5,-17.5
-      parent: 2
-  - uid: 3317
-    components:
-    - type: Transform
-      pos: 12.5,7.5
-      parent: 2
-  - uid: 4225
-    components:
-    - type: Transform
-      pos: 23.5,-15.5
-      parent: 2
-  - uid: 4265
-    components:
-    - type: Transform
-      pos: 18.5,-8.5
-      parent: 2
-  - uid: 4266
-    components:
-    - type: Transform
-      pos: 18.5,-2.5
-      parent: 2
-  - uid: 4423
-    components:
-    - type: Transform
-      pos: -3.5,9.5
       parent: 2
   - uid: 4720
     components:
@@ -19653,6 +19552,88 @@ entities:
     components:
     - type: Transform
       pos: -2.5,-14.5
+      parent: 2
+- proto: ClosetTypanMaintenanceFilledRandom
+  entities:
+  - uid: 154
+    components:
+    - type: Transform
+      pos: 21.5,14.5
+      parent: 2
+  - uid: 166
+    components:
+    - type: Transform
+      pos: 12.5,7.5
+      parent: 2
+  - uid: 308
+    components:
+    - type: Transform
+      pos: 18.5,-8.5
+      parent: 2
+  - uid: 677
+    components:
+    - type: Transform
+      pos: 18.5,-2.5
+      parent: 2
+  - uid: 767
+    components:
+    - type: Transform
+      pos: -3.5,9.5
+      parent: 2
+  - uid: 1213
+    components:
+    - type: Transform
+      pos: -26.5,-1.5
+      parent: 2
+  - uid: 4266
+    components:
+    - type: Transform
+      pos: -26.5,-2.5
+      parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 6318
+          - 6319
+          - 6246
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+  - uid: 4954
+    components:
+    - type: Transform
+      pos: 23.5,-19.5
+      parent: 2
+  - uid: 6854
+    components:
+    - type: Transform
+      pos: 23.5,-14.5
       parent: 2
 - proto: ClosetWallEmergencyFilledRandom
   entities:
@@ -19969,29 +19950,6 @@ entities:
     - type: Transform
       pos: 44.392887,9.426414
       parent: 2
-- proto: ClothingOuterHardsuitRDSindi
-  entities:
-  - uid: 2061
-    components:
-    - type: Transform
-      parent: 4847
-    - type: Clothing
-      inSlotFlag: OUTERCLOTHING
-      inSlot: outerClothing
-    - type: Physics
-      canCollide: False
-    - type: Geiger
-      isEnabled: True
-    - type: RadiationReceiver
-- proto: ClothingOuterHardsuitSalvageSindi
-  entities:
-  - uid: 1927
-    components:
-    - type: Transform
-      parent: 1470
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: ClothingOuterHardsuitSyndieElite
   entities:
   - uid: 1136
@@ -20000,6 +19958,15 @@ entities:
       parent: 1135
     - type: Physics
       canCollide: False
+- proto: ClothingOuterHardsuitTypanCargotech
+  entities:
+  - uid: 1927
+    components:
+    - type: Transform
+      parent: 1470
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingShoesBootsMagSyndie
   entities:
   - uid: 4430
@@ -20229,8 +20196,10 @@ entities:
   - uid: 6318
     components:
     - type: Transform
-      pos: -26.518131,-2.48051
-      parent: 2
+      parent: 4266
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ComputerPowerMonitoring
   entities:
   - uid: 5965
@@ -20617,8 +20586,8 @@ entities:
         immutable: False
         temperature: 293.1465
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -33866,46 +33835,6 @@ entities:
       parent: 2
     - type: Lock
       locked: False
-- proto: LockerBoozeFilled
-  entities:
-  - uid: 2169
-    components:
-    - type: Transform
-      pos: -10.5,5.5
-      parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14673
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 2170
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: LockerElectricalSuppliesFilled
   entities:
   - uid: 445
@@ -34086,77 +34015,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: LockerSyndicatePersonalFilled
-  entities:
-  - uid: 308
-    components:
-    - type: Transform
-      pos: 24.5,7.5
-      parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.1462
-        moles:
-        - 1.606311
-        - 6.042789
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-  - uid: 2254
-    components:
-    - type: Transform
-      pos: 26.5,7.5
-      parent: 2
-  - uid: 4696
-    components:
-    - type: Transform
-      pos: 24.5,6.5
-      parent: 2
-  - uid: 4953
-    components:
-    - type: Transform
-      pos: 21.5,6.5
-      parent: 2
-  - uid: 4954
-    components:
-    - type: Transform
-      pos: 21.5,7.5
-      parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14673
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
 - proto: LockerSyndicateSci
   entities:
   - uid: 4791
@@ -34178,6 +34036,13 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-21.5
+      parent: 2
+- proto: LockerTypanBoozeFilled
+  entities:
+  - uid: 1315
+    components:
+    - type: Transform
+      pos: -10.5,5.5
       parent: 2
 - proto: LockerTypanCargotechFilled
   entities:
@@ -34248,6 +34113,26 @@ entities:
           ent: null
 - proto: LockerTypanPatrolFilled
   entities:
+  - uid: 1458
+    components:
+    - type: Transform
+      pos: 24.5,7.5
+      parent: 2
+  - uid: 1478
+    components:
+    - type: Transform
+      pos: 21.5,7.5
+      parent: 2
+  - uid: 2169
+    components:
+    - type: Transform
+      pos: 21.5,6.5
+      parent: 2
+  - uid: 2170
+    components:
+    - type: Transform
+      pos: 24.5,6.5
+      parent: 2
   - uid: 4753
     components:
     - type: Transform
@@ -34257,11 +34142,6 @@ entities:
     components:
     - type: Transform
       pos: 25.5,-13.5
-      parent: 2
-  - uid: 4785
-    components:
-    - type: Transform
-      pos: 24.5,10.5
       parent: 2
 - proto: LockerTypanResearchDirectorFilled
   entities:
@@ -34527,47 +34407,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 13.5,14.5
       parent: 2
-- proto: Mannequin
-  entities:
-  - uid: 4847
-    components:
-    - type: Transform
-      pos: -7.5,-19.5
-      parent: 2
-    - type: ContainerContainer
-      containers:
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: 2061
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
 - proto: MaterialWoodPlank1
   entities:
   - uid: 4740
@@ -40634,28 +40473,28 @@ entities:
       parent: 2
 - proto: SMESAdvanced
   entities:
+  - uid: 3317
+    components:
+    - type: Transform
+      pos: -21.5,8.5
+      parent: 2
   - uid: 4190
     components:
     - type: Transform
       pos: -20.5,14.5
       parent: 2
-- proto: SMESBasic
-  entities:
-  - uid: 166
-    components:
-    - type: Transform
-      pos: -21.5,8.5
-      parent: 2
-  - uid: 677
-    components:
-    - type: Transform
-      pos: -22.5,8.5
-      parent: 2
-  - uid: 1315
+  - uid: 4225
     components:
     - type: Transform
       pos: -20.5,8.5
       parent: 2
+  - uid: 4265
+    components:
+    - type: Transform
+      pos: -22.5,8.5
+      parent: 2
+- proto: SMESBasic
+  entities:
   - uid: 5770
     components:
     - type: Transform
@@ -40712,19 +40551,105 @@ entities:
     - type: Transform
       pos: 1.5,10.5
       parent: 5416
-- proto: SpawnTypanAtmos
+- proto: SpawnPointLatejoinTypanAtmos
   entities:
+  - uid: 5977
+    components:
+    - type: Transform
+      pos: -28.5,-1.5
+      parent: 2
   - uid: 6845
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -29.5,-1.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanBotanist
+  entities:
+  - uid: 6852
+    components:
+    - type: Transform
+      pos: -13.5,6.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanCargotech
+  entities:
+  - uid: 4847
+    components:
+    - type: Transform
+      pos: -5.5,13.5
+      parent: 2
+  - uid: 5970
+    components:
+    - type: Transform
+      pos: -6.5,13.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanChef
+  entities:
+  - uid: 6853
+    components:
+    - type: Transform
+      pos: -4.5,4.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanCommander
+  entities:
+  - uid: 4423
+    components:
+    - type: Transform
+      pos: 26.5,-7.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanMedic
+  entities:
+  - uid: 4959
+    components:
+    - type: Transform
+      pos: 8.5,-3.5
+      parent: 2
+  - uid: 4962
+    components:
+    - type: Transform
+      pos: 7.5,-3.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanPatrol
+  entities:
+  - uid: 6850
+    components:
+    - type: Transform
+      pos: 25.5,-12.5
+      parent: 2
+  - uid: 6851
+    components:
+    - type: Transform
+      pos: 26.5,-12.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanResearchDirector
+  entities:
+  - uid: 5973
+    components:
+    - type: Transform
+      pos: -6.5,-20.5
+      parent: 2
+- proto: SpawnPointLatejoinTypanScience
+  entities:
+  - uid: 5974
+    components:
+    - type: Transform
+      pos: -5.5,-17.5
       parent: 2
   - uid: 6846
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
+      pos: -5.5,-16.5
+      parent: 2
+- proto: SpawnTypanAtmos
+  entities:
+  - uid: 5975
+    components:
+    - type: Transform
       pos: -28.5,-1.5
+      parent: 2
+  - uid: 5976
+    components:
+    - type: Transform
+      pos: -29.5,-1.5
       parent: 2
 - proto: SpawnTypanBotanist
   entities:
@@ -40792,7 +40717,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 26.5,-12.5
       parent: 2
-- proto: SpawnTypanRD
+- proto: SpawnTypanResearchDirector
   entities:
   - uid: 6847
     components:
@@ -41121,6 +41046,63 @@ entities:
     - type: Transform
       pos: -28.5,-2.5
       parent: 2
+- proto: SuitStorageTypanBase
+  entities:
+  - uid: 6855
+    components:
+    - type: Transform
+      pos: 24.5,12.5
+      parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+      removedMasks: 20
+      open: True
+    - type: Lock
+      locked: False
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.25,-0.48
+            - 0.25,-0.48
+            - 0.25,0.48
+            - -0.25,0.48
+          mask:
+          - Impassable
+          - MidImpassable
+          - LowImpassable
+          - BlobImpassable
+          layer:
+          - BulletImpassable
+          - Opaque
+          density: 350
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: PlaceableSurface
+      isPlaceable: True
 - proto: SuitStorageTypanCargotechFilled
   entities:
   - uid: 2589
@@ -41135,6 +41117,11 @@ entities:
       parent: 2
 - proto: SuitStorageTypanCOFilled
   entities:
+  - uid: 2254
+    components:
+    - type: Transform
+      pos: 24.5,10.5
+      parent: 2
   - uid: 6032
     components:
     - type: Transform
@@ -41163,6 +41150,13 @@ entities:
     components:
     - type: Transform
       pos: 26.5,-18.5
+      parent: 2
+- proto: SuitStorageTypanResearchDirectorFilled
+  entities:
+  - uid: 2061
+    components:
+    - type: Transform
+      pos: -7.5,-19.5
       parent: 2
 - proto: SuitStorageTypanTechnicianFilled
   entities:
@@ -41195,8 +41189,10 @@ entities:
   - uid: 6319
     components:
     - type: Transform
-      pos: -26.38063,-2.3180103
-      parent: 2
+      parent: 4266
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: SyndicateJawsOfLife
   entities:
   - uid: 2598
@@ -41208,6 +41204,13 @@ entities:
     components:
     - type: Transform
       pos: 21.5,4.5
+      parent: 2
+- proto: SyndicatePowerDrill
+  entities:
+  - uid: 169
+    components:
+    - type: Transform
+      pos: -19.66981,0.97917604
       parent: 2
 - proto: SyndicateSponge
   entities:
@@ -41515,12 +41518,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -20.5,5.5
       parent: 2
-  - uid: 169
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -26.5,-1.5
-      parent: 2
   - uid: 316
     components:
     - type: Transform
@@ -41531,12 +41528,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 29.5,-2.5
-      parent: 2
-  - uid: 767
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -26.5,-2.5
       parent: 2
   - uid: 771
     components:
@@ -42095,27 +42086,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 14.5,7.5
       parent: 2
-- proto: ToolboxElectricalFilled
-  entities:
-  - uid: 154
-    components:
-    - type: Transform
-      pos: -26.5206,-1.651806
-      parent: 2
-- proto: ToolboxEmergencyFilled
-  entities:
-  - uid: 1458
-    components:
-    - type: Transform
-      pos: -26.5206,-1.183056
-      parent: 2
-- proto: ToolboxMechanicalFilled
-  entities:
-  - uid: 1478
-    components:
-    - type: Transform
-      pos: -26.5206,-1.417431
-      parent: 2
 - proto: ToolboxSyndicateFilled
   entities:
   - uid: 4758
@@ -42136,8 +42106,10 @@ entities:
   - uid: 6246
     components:
     - type: Transform
-      pos: -26.511938,-1.8626459
-      parent: 2
+      parent: 4266
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: TowelColorBlack
   entities:
   - uid: 3931
@@ -47617,15 +47589,6 @@ entities:
       - TypanWeaponry
       - TypanResearch
       - TypanLifeSupport
-- proto: WeaponShotgunSawn
-  entities:
-  - uid: 2170
-    components:
-    - type: Transform
-      parent: 2169
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: WeaponSubMachineGunAtreides
   entities:
   - uid: 4775

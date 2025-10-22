@@ -19,7 +19,7 @@
         - id: HolofanProjector
         - id: RCDAmmo
         - id: RPDsindi
-        - id: SindiRCD
+        - id: RCDSyndicate
     - type: AccessReader
       access: [["TypanAtmospherics"]]
 

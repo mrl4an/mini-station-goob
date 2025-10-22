@@ -19,7 +19,7 @@
             TypanCargotech: [ 2, 2 ]
             TypanChef: [ 1, 1 ]
             TypanMedic: [ 3, 3 ]
-            TypanRD: [ 1, 1 ]
+            TypanResearchDirector: [ 1, 1 ]
             TypanScience: [ 3, 3 ]
             TypanPatrol: [ 2, 2 ]
             TypanBorg: [ 0, 2 ]

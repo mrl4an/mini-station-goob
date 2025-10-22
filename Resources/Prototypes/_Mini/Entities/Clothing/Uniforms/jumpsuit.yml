@@ -87,7 +87,7 @@
 
 - type: entity
   parent: ClothingJumpsuitTypanBase
-  id: ClothingUniformJumpsuitTypanRecruit
+  id: ClothingUniformJumpsuitTypanPatrol
   name: комбинезон рекрута
   description: Базовый комбинезон, сочетающий практичность и комфорт для начального обучения и работы.
   components:

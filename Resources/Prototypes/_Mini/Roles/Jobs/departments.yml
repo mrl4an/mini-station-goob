@@ -5,7 +5,7 @@
   color: "#9b2d30"
   roles:
   - TypanCommander
-  - TypanRD
+  - TypanResearchDirector
   - TypanPatrol
   - TypanAtmosTech
   - TypanBotanist

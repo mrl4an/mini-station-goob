@@ -10,7 +10,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 6000
+      time: 36000
   access:
   - TypanScience
   - SyndicateAgent
@@ -27,7 +27,6 @@
   equipment:
     eyes: ClothingEyesHudTypanResearch
     ears: ClothingHeadsetAltSyndicate
-    jumpsuit: ClothingUniformScienceTypan
     outerClothing: ClothingOuterTypanCoatLabResearcher
     gloves: ClothingHandsScienceTypan
     shoes: ClothingShoesBootsCombat

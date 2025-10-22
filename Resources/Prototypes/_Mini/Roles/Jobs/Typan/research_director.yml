@@ -1,9 +1,9 @@
 - type: job
-  id: TypanRD
+  id: TypanResearchDirector
   name: job-name-typan-rd
-  playTimeTracker: JobTypanRD
+  playTimeTracker: JobTypanResearchDirector
   description: job-description-typan-rd
-  startingGear: TypanRD
+  startingGear: TypanResearchDirector
   icon: "JobIconSyndicateRD"
   supervisors: job-supervisors-typan-syndicate
   canBeAntag: false
@@ -30,12 +30,11 @@
         - AdvancedBuilding
 
 - type: startingGear
-  id: TypanRD
+  id: TypanResearchDirector
   equipment:
     eyes: ClothingEyesHudTypanResearch
     ears: ClothingHeadsetAltSyndicate
     shoes: ClothingShoesBootsCombat
     gloves: ClothingHandsRDTypan
     id: SyndiPDARD
-    jumpsuit: ClothingUniformJumpsuitSyndieFormal
     outerClothing: ClothingOuterTypanCoatLabResearchDirector

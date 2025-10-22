@@ -45,7 +45,6 @@
   equipment:
     ears: ClothingHeadsetAltSyndicate
     shoes: ClothingShoesBootsCombat
-    jumpsuit: ClothingUniformJumpsuitSyndieFormal
     gloves: ClothingHandsGlovesCombat
     id: SyndiPDACom
     pocket1: SyndicateWhistle

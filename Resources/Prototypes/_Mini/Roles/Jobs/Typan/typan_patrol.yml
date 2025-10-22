@@ -9,16 +9,8 @@
   canBeAntag: false
   requirements:
     - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 7200
-    - !type:DepartmentTimeRequirement
-      department: Command
-      time: 7200
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 14400
-    - !type:OverallPlaytimeRequirement
-      time: 21600
+      department: Typan
+      time: 36000
     - !type:AgeRequirement
       requiredAge: 26
   access:
@@ -46,7 +38,6 @@
   equipment:
     ears: ClothingHeadsetAltSyndicate
     shoes: ClothingShoesBootsCombat
-    jumpsuit: ClothingUniformJumpsuitOperative
     gloves: ClothingHandsGlovesCombat
     id: SyndiPDAOff
     head: ClothingHeadHatSyndie

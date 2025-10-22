@@ -79,7 +79,7 @@
 
 # Директор исследований
 - type: entity
-  id: SuitStorageTypanRDFilled
+  id: SuitStorageTypanResearchDirectorFilled
   parent: SuitStorageTypanBase
   suffix: Тайпан, Директор исследований
   components:
@@ -88,4 +88,4 @@
     - id: OxygenTankFilled
     - id: ClothingOuterHardsuitRDSindi
   - type: AccessReader
-    access: [["TypanTechnicalOperationsSupervisor"]]
+    access: [["TypanResearchDirector"]]

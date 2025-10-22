@@ -488,15 +488,6 @@
     Silver: 150
 
 - type: latheRecipe
-  id: SyndiHypo
-  result: SyndiHypo
-  completetime: 10
-  materials:
-    Steel: 200
-    Glass: 400
-    Gold: 300
-
-- type: latheRecipe
   id: HypoDart
   result: HypoDart
   completetime: 5

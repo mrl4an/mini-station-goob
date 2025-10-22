@@ -8,12 +8,9 @@
   supervisors: job-supervisors-typan-telecommunications-officer
   canBeAntag: false
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobChemist
-      time: 6000
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 18000
+      time: 36000
   access:
   - TypanMedical
   - SyndicateAgent
@@ -37,7 +34,6 @@
   equipment:
     eyes: ClothingEyesHudTypanMedical
     ears: ClothingHeadsetAltSyndicate
-    jumpsuit: ClothingUniformJumpsuitParamedicSyndie
     outerClothing: ClothingOuterTypanCoatLabMed
     shoes: ClothingShoesBootsCombat
     id: MedicalPDASyndi

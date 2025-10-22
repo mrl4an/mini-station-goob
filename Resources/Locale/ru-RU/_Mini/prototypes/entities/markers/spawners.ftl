@@ -8,8 +8,10 @@ ent-SpawnPointLatejoinTypanChef = позднее подключение пова
 
 ent-SpawnPointLatejoinTypanMedic = позднее подключение медик Синдиката
 
-ent-SpawnPointLatejoinTypanRD = позднее подключение научный руководитель Синдиката
+ent-SpawnPointLatejoinTypanResearchDirector = позднее подключение научный руководитель Синдиката
 
 ent-SpawnPointLatejoinTypanScience = позднее подключение учёный Синдиката
 
 ent-SpawnPointLatejoinTypanPatrol = позднее подключение патрульный Синдиката
+
+ent-SpawnPointLatejoinTypanCommander = позднее подключение офицер телекоммуникаций

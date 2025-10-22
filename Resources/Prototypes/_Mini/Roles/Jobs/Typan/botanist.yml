@@ -10,9 +10,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 6000
+      time: 7200
   access:
   - TypanService
+  - TypanMaint
   - SyndicateAgent
 
 

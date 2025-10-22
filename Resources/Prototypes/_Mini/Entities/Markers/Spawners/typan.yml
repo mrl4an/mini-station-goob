@@ -55,13 +55,13 @@
 
 - type: entity
   name: latejoin syndicate research director
-  id: SpawnPointLatejoinTypanRD
+  id: SpawnPointLatejoinTypanResearchDirector
   parent: SpawnPointJobBase
   components:
   - type: Sprite
     state: green
   - type: SpawnPoint
-    job_id: TypanRD
+    job_id: TypanResearchDirector
     spawn_type: LateJoin
 
 - type: entity
@@ -77,18 +77,28 @@
 
 - type: entity
   name: latejoin syndicate telecommunications officer
-  id: SpawnPointLatejoinTypanPatrol
+  id: SpawnPointLatejoinTypanCommander
   parent: SpawnPointJobBase
   components:
   - type: Sprite
     state: green
   - type: SpawnPoint
     job_id: TypanCommander
-    spawn_type: Job
-
+    spawn_type: LateJoin
 
 - type: entity
-  name: latejoin syndicate atmostech
+  name: latejoin patrol
+  id: SpawnPointLatejoinTypanPatrol
+  parent: SpawnPointJobBase
+  components:
+  - type: Sprite
+    state: green
+  - type: SpawnPoint
+    job_id: TypanPatrol
+    spawn_type: LateJoin
+
+- type: entity
+  name: спавн раундстарт atmostech
   id: SpawnTypanAtmos
   parent: SpawnPointJobBase
   components:
@@ -99,7 +109,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate botanist
+  name: спавн раундстарт botanist
   id: SpawnTypanBotanist
   parent: SpawnPointJobBase
   components:
@@ -110,7 +120,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate cargo technician
+  name: спавн раундстарт cargo technician
   id: SpawnTypanCargotech
   parent: SpawnPointJobBase
   components:
@@ -121,7 +131,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate syndicate chef
+  name: lпавн раундстарт syndicate chef
   id: SpawnTypanChef
   parent: SpawnPointJobBase
   components:
@@ -132,7 +142,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate medic
+  name: спавн раундстарт medic
   id: SpawnTypanMedic
   parent: SpawnPointJobBase
   components:
@@ -143,18 +153,18 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate research director
-  id: SpawnTypanRD
+  name: спавн раундстарт research director
+  id: SpawnTypanResearchDirector
   parent: SpawnPointJobBase
   components:
   - type: Sprite
     state: green
   - type: SpawnPoint
-    job_id: TypanRD
+    job_id: TypanResearchDirector
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate scientist
+  name: спавн раундстарт scientist
   id: SpawnTypanScience
   parent: SpawnPointJobBase
   components:
@@ -165,7 +175,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate commander
+  name: спавн раундстарт commander
   id: SpawnTypanCommander
   parent: SpawnPointJobBase
   components:
@@ -176,7 +186,7 @@
     spawn_type: Job
 
 - type: entity
-  name: latejoin syndicate officer
+  name: спавн раундстарт патрульного синдиката
   id: SpawnTypanPatrol
   parent: SpawnPointJobBase
   components:

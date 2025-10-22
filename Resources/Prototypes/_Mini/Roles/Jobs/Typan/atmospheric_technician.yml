@@ -10,7 +10,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 7200
+      time: 36000
   access:
   - TypanEngineering
   - TypanAtmospherics
@@ -29,7 +29,6 @@
   equipment:
     eyes: ClothingEyesHudTypanDiagnostic
     ears: ClothingHeadsetAltSyndicate
-    jumpsuit: ClothingUniformJumpsuitChiefEngineerSyndie
     shoes: ClothingShoesBootsTypan
     id: SyndiPDAEng
     outerClothing: ClothingOuterCoatAtmosWorking

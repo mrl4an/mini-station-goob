@@ -35,8 +35,6 @@
     ears: ClothingHeadsetAltTypan
     shoes: ClothingShoesBootsLaceup
     id: TypanTechnicalOperationsSupervisorPDA
-    back: ClothingBackpackSyndicate
-    socks: ClothingUnderwearSocksTypanTechnicalOperationsSupervisor
 
 - type: chameleonOutfit
   id: TypanTechnicalOperationsSupervisorChameleonOutfit

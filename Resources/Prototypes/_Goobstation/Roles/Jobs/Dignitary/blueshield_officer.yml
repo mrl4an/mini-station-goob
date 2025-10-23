@@ -48,7 +48,7 @@
       inverted: true
       species:
       - Felinid
-  #goobcoins: 45 Corvax-Goob-coins
+  goobcoins: 45  #Corvax-Goob-coins
   weight: 20
   startingGear: BlueshieldOfficerGear
   icon: "JobIconBlueshield"

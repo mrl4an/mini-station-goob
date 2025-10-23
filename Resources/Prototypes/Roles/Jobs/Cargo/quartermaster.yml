@@ -148,7 +148,7 @@
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain
   canBeAntag: false
-  #goobcoins: 40 #Goob content Corvax-Goob-coins
+  goobcoins: 40 #Goob content  #Corvax-Goob-coins
   access:
   - Cargo
   - Salvage

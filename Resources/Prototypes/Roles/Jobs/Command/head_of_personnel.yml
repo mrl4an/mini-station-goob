@@ -156,7 +156,7 @@
       inverted: true
       species:
       - Felinid
-  #goobcoins: 40 #Goob content Corvax-Goob-coins
+  goobcoins: 40 #Goob content  #Corvax-Goob-coins
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

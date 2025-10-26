@@ -110,4 +110,10 @@ public sealed class CCCVars
     /// </summary>
     public static readonly CVarDef<string> DiscordAuthApiKey =
         CVarDef.Create("discord_auth.api_key", "", CVar.SERVERONLY | CVar.CONFIDENTIAL);
+
+    /// <summary>
+    ///     Combat mode sound
+    /// </summary>
+    public static readonly CVarDef<bool> CombatModeSoundEnabled =
+        CVarDef.Create("audio.combat_mode_sound_enabled", true, CVar.ARCHIVE | CVar.CLIENTONLY);
 }

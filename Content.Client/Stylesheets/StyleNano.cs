@@ -149,6 +149,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
 using static Robust.Client.UserInterface.StylesheetHelpers;
+using Content.Client.Stylesheets;
 
 namespace Content.Client.Stylesheets
 {
@@ -2086,6 +2087,37 @@ namespace Content.Client.Stylesheets
                 Element<PanelContainer>()
                     .Class(StyleClassInset)
                     .Prop(PanelContainer.StylePropertyPanel, insetBack),
+
+            // Yellow Button Styles Integration
+            Element<Button>().Class(YellowButtonStyles.StyleClassButtonColorYellow)
+                .Prop(Control.StylePropertyModulateSelf, YellowButtonStyles.ButtonColorDefaultYellow),
+
+            Element<Button>().Class(YellowButtonStyles.StyleClassButtonColorYellow)
+                .Pseudo(ContainerButton.StylePseudoClassNormal)
+                .Prop(Control.StylePropertyModulateSelf, YellowButtonStyles.ButtonColorDefaultYellow),
+
+            Element<Button>().Class(YellowButtonStyles.StyleClassButtonColorYellow)
+                .Pseudo(ContainerButton.StylePseudoClassHover)
+                .Prop(Control.StylePropertyModulateSelf, YellowButtonStyles.ButtonColorHoveredYellow),
+
+            Element<Button>().Class(YellowButtonStyles.StyleClassButtonColorYellow)
+                .Pseudo(ContainerButton.StylePseudoClassPressed)
+                .Prop(Control.StylePropertyModulateSelf, YellowButtonStyles.ButtonColorPressedYellow),
+
+            Element<Button>().Class(YellowButtonStyles.StyleClassButtonColorYellow)
+                .Pseudo(ContainerButton.StylePseudoClassDisabled)
+                .Prop(Control.StylePropertyModulateSelf, YellowButtonStyles.ButtonColorDisabledYellow),
+
+            // Yellow button text color
+            new StyleRule(
+                new SelectorChild(
+                    new SelectorElement(typeof(Button), new[] { YellowButtonStyles.StyleClassButtonColorYellow }, null, null),
+                    new SelectorElement(typeof(Label), null, null, null)),
+                new[]
+                {
+                    new StyleProperty("font-color", YellowButtonStyles.ButtonColorTextYellow)
+                }),
+
             }).ToList());
         }
     }

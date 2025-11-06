@@ -41,7 +41,7 @@ public sealed class ServerListBox : BoxContainer
 
     private void AddServers(BoxContainer container)
     {
-        AddServerInfo(container, "МИНИ-СТАНЦИЯ:2", "ss14://85.192.49.3:1213", "Резервный сервер", null);
+        AddServerInfo(container, "МИНИ-СТАНЦИЯ", "ss14://144.31.0.187:1213", "Основной сервер", null);
         AddServerInfo(container, "BLACKOUT", "ss14://144.31.0.58:1212", "Партнёры c нашей сборкой", null);
         AddServerInfo(container, "FREAK-STATION", "ss14://46.149.69.119:16038", "Партнёры", null);
     }

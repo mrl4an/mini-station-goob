@@ -547,7 +547,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateMedicHardsuitBundle
   cost:
-    Telecrystal: 12 # novelty item for the larp
+    Telecrystal: 8 # novelty item for the larp
   categories:
   - UplinkWearables
   conditions:

@@ -228,7 +228,7 @@
   description: uplink-c4-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
   cost:
-    Telecrystal: 12
+    Telecrystal: 7
   categories:
   - UplinkExplosives
   conditions:
@@ -471,7 +471,7 @@
   description: uplink-m7s-desc
   productEntity: WeaponSubMachineGunM7S
   cost:
-    Telecrystal: 22
+    Telecrystal: 20
   categories:
     -  UplinkWeaponry
 
@@ -566,7 +566,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi, state: icon }
   productEntity: ClothingOuterHardsuitSyndieCommander
   cost:
-    Telecrystal: 25 # novelty item for the larp, doesnt come with bundle though because bulky fuck
+    Telecrystal: 20 # novelty item for the larp, doesnt come with bundle though because bulky fuck
   categories:
   - UplinkWearables
   conditions:
@@ -657,7 +657,7 @@
   description: Make the floor slippery!
   productEntity: LubeGrenade
   cost:
-    Telecrystal: 10
+    Telecrystal: 3
   categories:
     -  UplinkJob
   conditions:
@@ -673,7 +673,7 @@
   description: Make the floor hard to walk in!
   productEntity: GlueGrenade
   cost:
-    Telecrystal: 5
+    Telecrystal: 2
   categories:
     -  UplinkJob
   conditions:
@@ -1188,7 +1188,7 @@
   icon: { sprite: _Goobstation/Objects/Weapons/Guns/Ammunition/Magazine/heavy_shotgun.rsi, state: icon }
   productEntity: MagazineShotgunHeavy
   cost:
-    Telecrystal: 6
+    Telecrystal: 4
   categories:
   - UplinkAmmo
   conditions:
@@ -1204,7 +1204,7 @@
   icon: { sprite: _Goobstation/Objects/Weapons/Guns/Ammunition/Magazine/heavy_shotgun.rsi, state: icon2 }
   productEntity: MagazineShotgunHeavySlug
   cost:
-    Telecrystal: 8
+    Telecrystal: 6
   categories:
   - UplinkAmmo
   conditions:
@@ -1311,7 +1311,7 @@
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-lethal }
   productEntity: MagazineBoxShotgunHighCaliber
   cost:
-    Telecrystal: 4
+    Telecrystal: 2
   categories:
   - UplinkAmmo
 
@@ -1322,7 +1322,7 @@
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-slug }
   productEntity: MagazineBoxShotgunSlugHighCaliber
   cost:
-    Telecrystal: 6
+    Telecrystal: 3
   categories:
   - UplinkAmmo
 
@@ -1344,7 +1344,7 @@
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-sarin }
   productEntity: MagazineBoxShotgunHighCaliberSarin
   cost:
-    Telecrystal: 6
+    Telecrystal: 4
   categories:
   - UplinkAmmo
 
@@ -1390,7 +1390,7 @@
   description: uplink-cqc-desc
   productEntity: CQCManual
   cost:
-    Telecrystal: 20
+    Telecrystal: 14
   categories:
   - UplinkWeaponry
   conditions:
@@ -1406,7 +1406,7 @@
   description: uplink-cqc-desc
   productEntity: CQCManual
   cost:
-    Telecrystal: 20
+    Telecrystal: 18
   categories:
   - UplinkJob
   conditions:
@@ -1528,7 +1528,7 @@
   description: uplink-holo-cigar-desc
   productEntity: HoloCigar
   cost:
-    Telecrystal: 6
+    Telecrystal: 8
   categories:
   - UplinkWearables
   conditions:

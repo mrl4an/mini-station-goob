@@ -323,16 +323,16 @@
   - UplinkWeaponry
 
 
-- type: listing
-  id: UplinkC20R #goob
-  name: uplink-c20r-name #goob
-  description: uplink-c20r-desc #goob
-  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
-  productEntity: WeaponSubMachineGunC20r #Goob unbundle update
-  cost:
-    Telecrystal: 12 # goob unbunde update
-  categories:
-  - UplinkWeaponry
+# - type: listing
+#   id: UplinkC20R #goob
+#   name: uplink-c20r-name #goob
+#   description: uplink-c20r-desc #goob
+#   icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+#   productEntity: WeaponSubMachineGunC20r #Goob unbundle update
+#   cost:
+#     Telecrystal: 12 # goob unbunde update
+#   categories:
+#   - UplinkWeaponry
 
 - type: listing
   id: UplinkEstoc # goob unbundle
@@ -1802,7 +1802,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Suits/carpsuit.rsi, state: icon }
   productEntity: ClothingOuterHardsuitCarp
   cost:
-    Telecrystal: 4 # goob
+    Telecrystal: 5 # goob
   categories:
   - UplinkWearables
 

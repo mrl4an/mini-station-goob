@@ -76,7 +76,7 @@
   description: uplink-carpcaller-desc
   productEntity: CarpCaller
   cost:
-    Telecrystal: 10 # you can't really do much with it
+    Telecrystal: 12
   categories:
     -  UplinkDisruption
 
@@ -446,7 +446,7 @@
   description: uplink-anaconda-desc
   productEntity: WeaponPistolAnaconda
   cost:
-    Telecrystal: 18 # This + esword = 75 TC
+    Telecrystal: 15
   categories:
   - UplinkWeaponry
   conditions:

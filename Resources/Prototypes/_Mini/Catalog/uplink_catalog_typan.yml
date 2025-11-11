@@ -153,9 +153,6 @@
   description: uplink-c20r-bundle-desc
   icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledSMG
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 10
   cost:
     Telecrystal: 20
   categories:
@@ -1824,3 +1821,58 @@
     Telecrystal: 8
   categories:
   - TypanUplinkMaterials
+
+# - type: listing
+#   id: UplinkRifleAK
+#   name: АКМС
+#   description: Культовое оружие всех войн. Использует патроны калибра .30 винтовочный
+#   productEntity: WeaponRifleAK
+#   cost:
+#     Telecrystal: 12
+#   categories:
+#   - UplinkWeaponry
+
+- type: listing
+  id: UplinkMagazineRifleAK
+  name: магазин (.30 винтовочные)
+  description:  uplink-light-rifle-magazine-ak-desc
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_mag.rsi, state: base }
+  productEntity: MagazineLightRifle
+  cost:
+    Telecrystal: 1
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkRifleAKBundle
+  name: АКМС
+  description: Культовое оружие всех войн. Использует патроны калибра .30 винтовочный
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/ak.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledAK
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkWeaponry
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledAK
+  name: Набор АКМС
+  description: "Набор, содержащий АКМС и три магазина к нему"
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleAk
+      - id: MagazineLightRifle
+        amount: 3
+
+- type: listing
+  id: UplinkC20RBundle
+  name: uplink-c20r-bundle-name
+  description: uplink-c20r-bundle-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledSMG
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkWeaponry

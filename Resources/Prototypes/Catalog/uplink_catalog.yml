@@ -306,7 +306,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   productEntity: EnergyShield
   cost:
-    Telecrystal: 15 # goob
+    Telecrystal: 8 # goob
   categories:
   - UplinkWeaponry
 
@@ -323,16 +323,16 @@
   - UplinkWeaponry
 
 
-- type: listing
-  id: UplinkC20R #goob
-  name: uplink-c20r-name #goob
-  description: uplink-c20r-desc #goob
-  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
-  productEntity: WeaponSubMachineGunC20r #Goob unbundle update
-  cost:
-    Telecrystal: 12 # goob unbunde update
-  categories:
-  - UplinkWeaponry
+# - type: listing
+#   id: UplinkC20R #goob
+#   name: uplink-c20r-name #goob
+#   description: uplink-c20r-desc #goob
+#   icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+#   productEntity: WeaponSubMachineGunC20r #Goob unbundle update
+#   cost:
+#     Telecrystal: 12 # goob unbunde update
+#   categories:
+#   - UplinkWeaponry
 
 - type: listing
   id: UplinkEstoc # goob unbundle
@@ -536,7 +536,7 @@
   description: uplink-c4-bundle-desc
   productEntity: ClothingBackpackDuffelSyndicateC4tBundle
   cost:
-    Telecrystal: 2 # goob - you're buying bulk so its some discount
+    Telecrystal: 7 # goob - you're buying bulk so its some discount
   categories:
   - UplinkExplosives
   conditions: # Goob, two times cheaper for nukies
@@ -627,7 +627,7 @@
   description: uplink-shrapnel-grenade-desc
   productEntity: GrenadeShrapnel
   cost:
-    Telecrystal: 8 # goob
+    Telecrystal: 1 # goob
   categories:
   - UplinkExplosives
   conditions: # Goob, two times cheaper for nukies
@@ -643,7 +643,7 @@
   description: uplink-incendiary-grenade-desc
   productEntity: GrenadeIncendiary
   cost:
-    Telecrystal: 8 # goob
+    Telecrystal: 2 # goob
   categories:
   - UplinkExplosives
   conditions: # Goob, two times cheaper for nukies
@@ -1802,7 +1802,7 @@
   icon: { sprite: /Textures/Clothing/OuterClothing/Suits/carpsuit.rsi, state: icon }
   productEntity: ClothingOuterHardsuitCarp
   cost:
-    Telecrystal: 4 # goob
+    Telecrystal: 5 # goob
   categories:
   - UplinkWearables
 

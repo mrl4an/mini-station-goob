@@ -106,7 +106,7 @@ public sealed partial class NukeopsRuleComponent : Component
     /// Example: A value of 10 means one operative per 10 players.
     /// </summary>
     [DataField]
-    public int WarNukiePlayerRatio = 12;
+    public int WarNukiePlayerRatio = 10;
 
     /// <summary>
     /// Additional telecrystals granted per player on the server during war.

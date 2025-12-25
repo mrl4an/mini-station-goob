@@ -160,7 +160,7 @@
   name: sleeper-title
   description: sleeper-description
   showInVote: true
-  minPlayers: 5
+  minPlayers: 1
   rules:
     - CalmDynamic
     - SubGamemodesRule

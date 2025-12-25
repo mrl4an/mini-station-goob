@@ -637,9 +637,9 @@ namespace Content.Server.Voting.Managers
                     continue;
                 if(preset.ModeTitle == "nukeops-title" && _playerManager.PlayerCount<20)
                     continue;
-                if(preset.ModeTitle == "cosmiccult-title" && _playerManager.PlayerCount<15)
+                if(preset.ModeTitle == "cosmiccult-title" && _playerManager.PlayerCount<20)
                     continue;
-                if(preset.ModeTitle == "survivalplus-title" && _playerManager.PlayerCount<15)
+                if(preset.ModeTitle == "survivalplus-title" && _playerManager.PlayerCount<25)
                     continue;
                 if(preset.ModeTitle == "secretplus-mid-title" && _playerManager.PlayerCount<15)
                     continue;
@@ -647,11 +647,11 @@ namespace Content.Server.Voting.Managers
                     continue;
                 if(preset.ModeTitle == "zombie-title" && _playerManager.PlayerCount<30)
                     continue;
-                if(preset.ModeTitle == "shadowling-title" && _playerManager.PlayerCount<25)
+                if(preset.ModeTitle == "shadowling-title" && _playerManager.PlayerCount<30)
                     continue;
                 if(preset.ModeTitle == "blob-title" && _playerManager.PlayerCount<30)
                     continue;
-                if(preset.ModeTitle == "xenomorph-title" && _playerManager.PlayerCount<20)
+                if(preset.ModeTitle == "xenomorph-title" && _playerManager.PlayerCount<30)
                     continue;
                 if(preset.ID == _lastPickedPreset)
                     continue;

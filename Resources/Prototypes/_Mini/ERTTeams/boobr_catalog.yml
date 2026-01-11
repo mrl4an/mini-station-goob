@@ -216,7 +216,7 @@
   id: ADTBoberDrozdAmmo
   name: Магазин 35.авто
   description: Магазин для пистолета-пулемёта Дрозд
-  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
     Productunit: 1
@@ -227,7 +227,7 @@
   id: ADTBoberLecterAmmo
   name: Магазин 20.винтовочный
   description: Магазин для Лектера и М-90
-  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi, state: red }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi, state: base }
   productEntity: MagazineRifle
   cost:
     Productunit: 1

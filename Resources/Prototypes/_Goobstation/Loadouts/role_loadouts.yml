@@ -131,6 +131,9 @@
   - BlueshieldOfficerEnvirosuit
   - BlueshieldOfficerEnvirogloves
   - BlueshieldOfficerGloves
+  # Mini Station
+  - BlueshieldOfficerEyes
+  - BlueshieldOfficerPDA
 
 - type: roleLoadout
   id: JobNanotrasenCareerTrainer

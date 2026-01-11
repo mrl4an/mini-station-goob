@@ -83,6 +83,7 @@
   - Service
   - Hydroponics
   - Cargo
+  - Armory
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ] # CorvaxGoob-Not-Roundstart-BluespaceLifeline-Implant
@@ -95,16 +96,15 @@
 - type: startingGear
   id: BlueshieldOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesBSO
+    #eyes: ClothingEyesGlassesBSO
     #gloves: ClothingHandsGlovesCombat - Goobstation, moved to loadouts
-    id: BlueshieldPDA
+    #id: BlueshieldPDA
     ears: ClothingHeadsetAltBlueshield
     #belt: ClothingBeltAssaultFilled - Goobstation, moved to loadouts
     pocket1: UniqueBlueshieldOfficerLockerTeleporter
   storage:
     back:
     - Flash
-    - ClothingMaskGasSecurity
     - CombatKnife
 
 - type: chameleonOutfit

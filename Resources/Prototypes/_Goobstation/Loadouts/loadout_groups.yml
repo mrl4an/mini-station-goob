@@ -1001,7 +1001,7 @@
 
 - type: loadoutGroup
   id: BlueshieldOfficerBelt
-  name: Пояс офицера Синего Щита
+  name: ОСЩ, пояс
   loadouts:
   - BeltAssault
   - MilitaryWebbingBlueShield
@@ -1011,6 +1011,7 @@
   name: loadout-group-bso-outer
   loadouts:
   - BlueshieldOfficerOuterBlueshieldArmorVest
+  - BlueshieldOfficerOuterBlueshieldArmorVestAlt
   - BlueshieldOfficerOuterBlueshieldArmoredJacket
   - BlueshieldOfficerOuterBlueshieldCowboyVest
   - BlueshieldOfficerOuterWinterBlueshield
@@ -1032,6 +1033,7 @@
   loadouts:
   - BlueshieldOfficerMaskLollypop
   - BlueshieldOfficerMaskGaiter
+  - BlueshieldOfficerMaskSwat
 
 - type: loadoutGroup
   id: BlueshieldOfficerShoes
@@ -1072,6 +1074,23 @@
   maxLimit: 1
   loadouts:
   - CombatGloves
+
+- type: loadoutGroup
+  id: BlueshieldOfficerEyes
+  name: ОСЩ, очки
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldOfficerOuterBlueshieldGlasses
+  - BlueshieldOfficerOuterBlueshieldLenses
+
+- type: loadoutGroup
+  id: BlueshieldOfficerPDA
+  name: ОСЩ, КПК
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - BlueshieldOfficerPDA
 
 # Career Trainer
 

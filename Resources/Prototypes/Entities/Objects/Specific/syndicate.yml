@@ -38,7 +38,7 @@
   parent: [BaseItem, BaseSyndicateContraband]
   id: Telecrystal
   # Goobstation - Telecrystal rework
-  suffix: 100 TC
+  suffix: 20 TC
   description: It seems to be pulsing with suspiciously enticing energies.
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
     sprite: Objects/Specific/Syndicate/telecrystal.rsi
     size: Tiny
   - type: Stack
-    count: 100
+    count: 20
     stackType: Telecrystal
   - type: StaticPrice
     price: 0
@@ -110,6 +110,7 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
+    playSparksEffect: true # CorvaxGoob-SparksEffect
     balance:
       Telecrystal: 0
 

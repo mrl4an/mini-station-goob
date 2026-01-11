@@ -113,6 +113,11 @@
     outerClothing: ClothingBlueshieldArmourVest
 
 - type: loadout
+  id: BlueshieldOfficerOuterBlueshieldArmorVestAlt
+  equipment:
+    outerClothing: ClothingOuterArmorBlueShieldAlt
+
+- type: loadout
   id: BlueshieldOfficerOuterBlueshieldArmoredJacket
   equipment:
     outerClothing: ClothingBlueshieldArmoredJacket
@@ -126,6 +131,23 @@
   id: BlueshieldOfficerOuterWinterBlueshield
   equipment:
     outerClothing: ClothingOuterWinterBlueshield
+
+# Glasses
+- type: loadout
+  id: BlueshieldOfficerOuterBlueshieldGlasses
+  equipment:
+    eyes: ClothingEyesGlassesBSO
+
+- type: loadout
+  id: BlueshieldOfficerOuterBlueshieldLenses
+  equipment:
+    eyes: ClothingEyesLensesBlueshield
+
+# PDA
+- type: loadout
+  id: BlueshieldOfficerPDA
+  equipment:
+    id: BlueshieldPDA
 
 # Neck
 - type: loadout
@@ -169,11 +191,18 @@
   equipment:
     mask: FoodSnackLollypopBlueshield
 
-# Mask
 - type: loadout
   id: BlueshieldOfficerMaskGaiter
   equipment:
     mask: ClothingMaskNeckGaiter
+
+- type: loadout
+  id: BlueshieldOfficerMaskSwat
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: SeniorBlueshieldOfficer
+  equipment:
+    mask: ClothingMaskGasBlueshield
 
 # Back
 - type: loadout

@@ -1051,7 +1051,7 @@
   description: uplink-exploding-syndicate-bomb-fake-desc
   productEntity: SyndicateBombFake
   cost:
-    Telecrystal: 2 # goob
+    Telecrystal: 1 # goob
   categories:
   - UplinkDeception
 

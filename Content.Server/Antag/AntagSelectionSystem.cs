@@ -399,6 +399,12 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
         // if there is both a spawner and players getting picked, let it fall back to a spawner.
         var noSpawner = def.SpawnerPrototype == null;
         var picking = def.PickPlayer;
+
+        foreach (var role in def.PrefRoles)
+        {
+            Log.Info($"Выбран антаг {role.Id}");
+        }
+
         if (midround && ent.Comp.SelectionTime == AntagSelectionTime.PrePlayerSpawn)
         {
             // prevent antag selection from happening if the round is on-going, requiring a spawner if used midround.

@@ -177,7 +177,7 @@
 // SPDX-FileCopyrightText: 2025 tetra <169831122+Foralemes@users.noreply.github.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
-
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -444,6 +444,14 @@ internal sealed partial class ChatManager : IChatManager
             colorOverride = prefs.AdminOOCColor;
         }
 
+        //mini-station donate color
+        if (SponsorInfoComponent.listOfSponsors.Any(d => d.Nickname == player.Name))
+        {
+            int miniDonateLevel = SponsorManager.GetDonateLevel(player.Name);
+            string miniDonateColor = SponsorColor.GetColorForNickname(miniDonateLevel);
+            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", miniDonateColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+            colorOverride = Color.TryFromHex(SponsorColor.GetColorForNickname(miniDonateLevel));
+        }
         /* CorvaxGoob-Revert : DB conflicts
         // RMC - Heavily modified for patreon.
         if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) &&

@@ -1,9 +1,9 @@
+
 using System.Linq;
 using Content.Server.Administration;
 using Content.Server.Shuttles.Components;
 using Content.Server.Shuttles.Systems;
 using Content.Shared.Administration;
-using Robust.Server.GameObjects;
 using Robust.Shared.Console;
 using Content.Server.RoundEnd;
 using Robust.Shared.Map.Components;
@@ -23,8 +23,7 @@ public sealed class SpawnERTShuttleCommand : LocalizedCommands
     public override string Description => "Создаёт и стыкует к станции ЦК шаттл приоритетом стыковочный порт ОБР.";
     public override string Help => "spawn_ert_shuttle <шаттл>";
 
-    [ValidatePrototypeId<TagPrototype>]
-    private const string DockTag = "DockCentcommERT";
+    private static readonly ProtoId<TagPrototype> DockTag = "DockCentcommERT";
 
     public override void Execute(IConsoleShell shell, string argStr, string[] args)
     {

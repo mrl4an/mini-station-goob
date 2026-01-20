@@ -28,13 +28,13 @@
       category: ghost-role-information-centcomm-category
       requirements:
         - !type:OverallPlaytimeRequirement
-          time: 750h
+          time: 75h
         - !type:DepartmentTimeRequirement
           department: Security
-          time: 50h
+          time: 5h
         - !type:RoleTimeRequirement
           role: JobCaptain
-          time: 60h
+          time: 6h
       raffle:
         settings: default
     - type: Loadout

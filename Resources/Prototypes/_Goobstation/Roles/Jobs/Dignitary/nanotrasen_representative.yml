@@ -162,7 +162,6 @@
     back:
     - Flash
     - TelescopicBaton
-    - TelephoneIaa
   # inhand:
   #   - ExecutiveBriefcaseEmpty # TODO: Maybe change this to not-empty, so that ntr wouldn't be poor at the start of every shift but whatever
 

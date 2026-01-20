@@ -197,10 +197,10 @@
     sound:
       path: /Audio/Items/multitool_drop.ogg
   - type: Sprite
-    sprite: _Mini/Ert/telephone_capitan.rsi
+    sprite: _Mini/Ert/telephone_captain.rsi
     state: icon
   - type: Clothing
-    sprite: _Mini/Ert/telephone_capitan.rsi
+    sprite: _Mini/Ert/telephone_captain.rsi
     quickEquip: false
     slots:
       - Belt
@@ -215,4 +215,46 @@
     - Blue
     - Red
     - Gamma
+    - Cburn
+
+- type: entity
+  parent: BaseItem
+  id: TelephoneHeadOfSecurity
+  name: устройство вызова ОБР
+  description: Устройство связи, которое выдаётся главам службы безопасности станций для связи с Центральным Командованием в экстренных случаях.
+  components:
+  - type: ActivatableUI
+    key: enum.ErtResponceConsoleUiKey.Key
+    requiresComplex: true
+    requireActiveHand: false
+    singleUser: true
+  - type: UserInterface
+    interfaces:
+      enum.ErtResponceConsoleUiKey.Key:
+        type: ErtResponceConsoleBoundUserInterface
+  - type: CrewManifestViewer
+    ownerKey: enum.ErtResponceConsoleUiKey.Key
+  - type: Item
+    size: Small
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/multitool_drop.ogg
+  - type: Sprite
+    sprite: _Mini/Ert/telephone_iaa.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Mini/Ert/telephone_iaa.rsi
+    quickEquip: false
+    slots:
+      - Belt
+  - type: Tag
+    tags:
+    - EmagImmune
+  - type: ActivatableUIRequiresAccess
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
+  - type: ErtResponceConsole
+    teams:
+    - Blue
+    - Red
     - Cburn

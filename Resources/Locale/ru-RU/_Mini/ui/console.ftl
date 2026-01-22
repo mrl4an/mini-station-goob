@@ -1,4 +1,4 @@
-admin-player-actions-window-ert = Окно управления ОБР
+admin-player-actions-window-ert = Управление ОБР
 
 ert-responce-balance-label =
     Баланс: { $cost }
@@ -54,10 +54,6 @@ station-event-response-team-arrival-red =
 
 station-event-response-team-arrival-cburn =
     Отряд Быстрого Реагирования классификации РХБЗЗ прибыл в сектор станции.
-    Экипажу приказывается сохранять спокойствие и доложить местонахождение действующей угрозы.
-
-station-event-response-team-arrival-cburn-sierra =
-    Отряд Быстрого Реагирования классификации РХБЗЗ Sierra прибыл в сектор станции.
     Экипажу приказывается сохранять спокойствие и доложить местонахождение действующей угрозы.
 
 station-event-centcomm-official-arrival = Представитель Центрального Командования прибыл на станцию.

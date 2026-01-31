@@ -56,6 +56,7 @@ public sealed class SponsorSystem : EntitySystem
                     reader.GetGuid(0).ToString(),
                     reader.GetInt32(1)
                 ));
+                Log.Info($"{reader.GetGuid(0).ToString()} {reader.GetInt32(1)}");
             }
 
             Sponsors = tempList.ToImmutableList();

@@ -648,24 +648,26 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
                 var sponsorSys = EntitySystem.Get<SponsorSystem>();
                 var sponsor = sponsorSys.Sponsors.FirstOrDefault(s => s.Uid == session.UserId.ToString());
 
-                if (sponsor.Level > 0)
+                var level = sponsor.Level;
+                int weightToAdd = 0;
+
+                // Считаем веса за каждый тир отдельно
+                if ((def.PrefRoles.Contains("Traitor") || def.PrefRoles.Contains("Thief")) && level > 0)
+                    weightToAdd += 4;
+
+                if ((def.PrefRoles.Contains("HeadRev") || def.PrefRoles.Contains("Zombie") || def.PrefRoles.Contains("Abductor")) && level > 1)
+                    weightToAdd += 4;
+
+                if ((def.PrefRoles.Contains("Nukeops") || def.PrefRoles.Contains("Devil") || def.PrefRoles.Contains("Cultist")) && level > 2)
+                    weightToAdd += 4;
+
+                if (level > 3)
+                    weightToAdd += 4;
+
+                // Добавляем итоговое количество весов
+                for (var i = 0; i < weightToAdd; i++)
                 {
-                    var level = sponsor.Level;
-
-                    // Проверяем условия по ролям и уровням
-                    bool matchesTier1 = (def.PrefRoles.Contains("Traitor") || def.PrefRoles.Contains("Thief")) && level > 0;
-                    bool matchesTier2 = (def.PrefRoles.Contains("HeadRev") || def.PrefRoles.Contains("Zombie") || def.PrefRoles.Contains("Abductor")) && level > 1;
-                    bool matchesTier3 = (def.PrefRoles.Contains("Nukeops") || def.PrefRoles.Contains("Devil") || def.PrefRoles.Contains("Cultist")) && level > 2;
-                    bool matchesTier4 = level > 3;
-
-                    // Если хоть одно условие сработало — добавляем веса
-                    if (matchesTier1 || matchesTier2 || matchesTier3 || matchesTier4)
-                    {
-                        for (var i = 0; i < 4; i++)
-                        {
-                            preferredList.Add(session);
-                        }
-                    }
+                    preferredList.Add(session);
                 }
             }
             else if (HasFallbackAntagPreference(session, def))
